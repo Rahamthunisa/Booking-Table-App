@@ -1,0 +1,89 @@
+.header {
+    background-color:  #495E57;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .header h1 {
+    margin: 0;
+    font-size: 28px;
+    color:#F4CE14;
+  }
+  
+  .content {
+    padding: 20px;
+    text-align: center;
+    max-width: 400px; /* Center the content container with auto margins */
+  margin: 0 auto;
+  }
+  .content p{
+    font-size: 20px;
+    text-align: center;
+  }
+  .content h2{
+    font-size: 30px;
+  }
+  .restaurant-image {
+    width: 100%;
+    max-width: 400px;
+    display: block;
+    margin: 0 auto 20px auto;
+    border-radius: 8px;
+  }
+  
+  .success-message {
+    background-color: #eaf4ea;
+    border: 1px solid #495E57;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+    text-align: left; /* Align text to the left */
+  max-width: 400px; /* Center the container with auto margins */
+  margin: 0 auto; 
+  }
+  
+  .success-message h2 {
+    color: #495E57;
+    margin-bottom: 10px;
+    text-align: center; 
+  }
+  
+  .success-message p {
+    margin: 5px 0;
+    font-size: 20px;
+  }
+  
+  .home-button {
+    background-color:#495E57;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .home-button:hover {
+    background-color: #495E57;
+  }
+  
+
+  @media (max-width: 600px) {
+    .header h1 {
+      font-size: 20px;
+    }
+  
+    .success-message {
+      padding: 15px;
+    }
+  
+    .success-message p {
+      font-size: 14px;
+    }
+  
+    .home-button {
+      padding: 12px 24px;
+      font-size: 16px;
+    }
+  }

@@ -1,0 +1,63 @@
+.header {
+    background-color:  #495E57;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .header h1 {
+    margin: 0;
+    font-size: 40px;
+    color: #F4CE14;
+  }
+  
+  .content {
+    padding: 20px;
+    text-align: center;
+    max-width: 400px; /* Center the content container with auto margins */
+  margin: 0 auto;
+  }
+  .content p{
+    font-size: 20px;
+    text-align: center;
+  }
+  .content h2{
+    font-size: 30px;
+  }
+  .restaurant-image {
+    width: 100%;
+    max-width: 400px;
+    display: block;
+    margin: 0 auto 20px auto;
+    border-radius: 8px;
+  }
+  
+  .reserve-button {
+    background-color: #495E57;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .reserve-button:hover {
+    background-color: #495E57;
+  }
+  
+
+  @media (max-width: 600px) {
+    .header h1 {
+      font-size: 20px;
+    }
+  
+    .reserve-button {
+      padding: 12px 24px;
+      font-size: 16px;
+    }
+  
+    .content p {
+      font-size: 14px;
+    }
+  }
